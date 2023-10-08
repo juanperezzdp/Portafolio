@@ -1,9 +1,9 @@
 /******* Bootstrap Theming ********/
 
-$primary: #0BCEAF;
-$secondary: #6c757d;
+$primary: #196cbe;
+$secondary: #ffffff;
 $light: #ffffff;
-$dark: #343a40;
+$dark: #ffffff;
 
 $font-family-sans-serif: 'Roboto', sans-serif;
 
@@ -20,7 +20,8 @@ $enable-responsive-font-sizes: true;
 @import "bootstrap/scss/bootstrap";
 
 
-/********** Template CSS ************/
+/********** Template CSS ***********/
+
 h1,
 .font-weight-bolder {
     font-weight: 900 !important;
@@ -30,6 +31,7 @@ h2,
 h3,
 .font-weight-bold {
     font-weight: 700 !important;
+    
 }
 
 h4,
@@ -118,14 +120,14 @@ h6,
 
 .navbar-light .navbar-nav .nav-link {
     padding: 25px 10px;
-    color: $dark;
+    color: white;
     font-weight: 500;
     outline: none;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: $primary;
+    color: #196cbe;
 }
 
 @media (max-width: 991.98px) {
@@ -232,6 +234,7 @@ h6,
 
 .progress {
     border-radius: 10px;
+
 }
 
 .progress .progress-bar {

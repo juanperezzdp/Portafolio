@@ -23,17 +23,17 @@
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="scss/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="51">
+<body data-spy="scroll" data-target=".navbar" data-offset="51" style="background-color: black;">
     <!-- Navbar Start -->
-    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light py-3 py-lg-0 px-lg-5" style="background: linear-gradient(180deg, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0) 100%)">
         <a href="index.html" class="navbar-brand ml-lg-3">
-            <h1 class="m-0 display-5"><span class="text-info">Juan</span>Perez</h1>
+            <h1 class="m-0 display-5 text-white"><span class="text-info">Juan</span class>Perez</h1>
         </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler" style="background-color: #ffffff;" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
@@ -43,7 +43,7 @@
                 <a href="#qualification" class="nav-item nav-link">Educación y Experiencia</a>
                 <a href="#skill" class="nav-item nav-link">Skills</a>
                 <a href="#portfolio" class="nav-item nav-link">Proyectos</a>
-                <a href="#contact" class="nav-item nav-link">Contacto</a>
+                <a href="#contact" class="nav-item nav-link ">Contacto</a>
             </div>
             <a target="_blank" href="https://github.com/juanperezzdp" class="btn btn-outline-info d-none d-lg-block">Repositorio <i class="bi bi-github"></i></a>
             <a target="_blank" href="https://www.linkedin.com/in/juanjoseperezperez/" class="btn btn-outline-info d-none d-lg-block">Contáctame <i class="fab fa-linkedin-in"></i></a>
@@ -72,12 +72,12 @@
 
 
     <!-- Header Start -->
-    <div class="container-fluid bg-info d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh; background-color: blue">
+    <div class="container-fluid  d-flex align-items-center mb-5 py-5" id="home" style="background: linear-gradient(180deg, #1ac1da 20%, rgb(0, 0, 0) 100%)">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-7 text-center text-lg-left">
                     <h3 class="text-white font-weight-normal mb-3">Hola, soy</h3>
-                    <h1 class="display-3 text-uppercase text-info mb-2" style="-webkit-text-stroke: 2px #ffffff;">juan Perez</h1>
+                    <h1 class="display-3 text-uppercase mb-2" style="color: #17a3b800; -webkit-text-stroke: 2px #ffffff;">juan Perez</h1>
                     <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
                     <div class="typed-text d-none">Web Developer, Front End Developer, Developer With React </div>
                     <div class="d-flex align-items-center justify-content-center pt-5">
@@ -105,8 +105,8 @@
                 <div class="col-lg-5 pb-4 pb-lg-0">
                     <img class="img-fluid rounded w-100" src="img/perfil2.jpeg" alt="">
                 </div>
-                <div class="col-lg-7">
-                    <h3 class="mb-4"> Web Developer</h3>
+                <div class="col-lg-7 text-white">
+                    <h3 class="mb-4 text-white"> Web Developer</h3>
                     <p>Desarrollador de Frontend JavaScript con experiencia en ReactJS.
                         <br>
                         <br>
@@ -124,10 +124,10 @@
                         ámbito laboral y seguir aprendiendo a través de proyectos desafiantes, explorando todas
                         las posibilidades en este apasionante mundo tecnológico.</p>
                     <div class="row mb-3">
-                        <div class="col-sm-6 py-2"><h6>Nombre: <span class="text-secondary">Juan Pérez</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Fecha de nacimiento: <span class="text-secondary">22 febrero</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">juanperezzdp@gmail.com</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Pais: <span class="text-secondary">Colombia, bogota</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Nombre: <span class="text-white">Juan Pérez</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Fecha de nacimiento: <span class="text-white">22 febrero</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-white">juanperezzdp@gmail.com</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Pais: <span class="text-white">Colombia, bogota</span></h6></div>
                     </div>
                     <a target="_blank" href="https://www.linkedin.com/in/juan-perez-429521265/" class="btn btn-outline-info mr-4">Linkedin</a>
                     
@@ -147,19 +147,20 @@
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <h3 class="mb-4">Mi Educación </h3>
+                    <h3 class="mb-4 text-white">Mi Educación </h3>
                     <div class="border-left border-info pt-2 pl-4 ml-2">
                         <div class="position-relative mb-4">
                             <i class="far fa-dot-circle text-info position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Curso </h5>
+                            <h5 class="font-weight-bold mb-1 text-white">Curso </h5>
                             <p class="mb-2"><strong>Udemy</strong> | <small>2022</small></p>
                             <p>Master en programación fullstack JavaScript
-                            Angular Node <br> (<a target="_blank" href="https://www.udemy.com/certificate/UC-a6f08648-9903-4687-af21-f4d7dcf5bc99/">Enlace al certificado</a>)</p>
+                            Angular Node <br> 
+                            (<a c target="_blank" href="https://www.udemy.com/certificate/UC-a6f08648-9903-4687-af21-f4d7dcf5bc99/">Enlace al certificado</a>)</p>
                         </div>
                         <div class="position-relative mb-4">
                             <i class="far fa-dot-circle text-info position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Frontend React</h5>
-                            <p class="mb-2"><strong>OpemBootcamp</strong> | <small>2022</small></p>
+                            <h5 class="font-weight-bold mb-1 text-white">Frontend React</h5>
+                            <p class="mb-2 text-white"><strong>OpemBootcamp</strong> | <small>2022</small></p>
                             <p>OpenBootcamp es una escuela de formación para desarrolladores que ofrece especialización en programación. Los alumnos pueden elegir entre diversas rutas de aprendizaje para orientar su formación hacia la especialización que deseen.
                             <br>
                             (<a target="_blank" href="https://community.open-bootcamp.com/user/p_juan/certificaciones/cca4e6b0-2a2e-4590-b79c-b3ae5321e8d5">Enlance al certificado</a>)</p>
@@ -168,12 +169,12 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <h3 class="mb-4">Mi Experiencia</h3>
+                    <h3 class="mb-4 text-white">Mi Experiencia</h3>
                     <div class="border-left border-info pt-2 pl-4 ml-2">
                         <div class="position-relative mb-4">
                             <i class="far fa-dot-circle text-info position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Maquetador Web</h5>
-                            <p style="cursor: pointer;" class="mb-2"><strong>Hype Professional Agency</strong> | <small>2022</small></p>
+                            <h5 class="font-weight-bold mb-1 text-white">Maquetador Web</h5>
+                            <p class="mb-2 text-white"><strong>Hype Professional Agency</strong> | <small>2022</small></p>
                             <p>
                                 Me Desarrollé funciones como Enmaquetador de Páginas Web en una agencia de
                                 marketing digital. 
@@ -209,8 +210,8 @@
                 <div class="col-md-6">
                     <div class="skill mb-4">
                         <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">HTML</h6>
-                            <h6 class="font-weight-bold">95%</h6>
+                            <h6 class="font-weight-bold text-white">HTML</h6>
+                            <h6 class="font-weight-bold text-white">95%</h6>
                         </div>
                         <div class="progress">
                             <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
@@ -218,8 +219,8 @@
                     </div>
                     <div class="skill mb-4">
                         <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">CSS</h6>
-                            <h6 class="font-weight-bold">85%</h6>
+                            <h6 class="font-weight-bold text-white">CSS</h6>
+                            <h6 class="font-weight-bold text-white">85%</h6>
                         </div>
                         <div class="progress">
                             <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
@@ -227,8 +228,8 @@
                     </div>
                     <div class="skill mb-4">
                         <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Sass</h6>
-                            <h6 class="font-weight-bold">93%</h6>
+                            <h6 class="font-weight-bold text-white">Sass</h6>
+                            <h6 class="font-weight-bold text-white">93%</h6>
                         </div>
                         <div class="progress">
                             <div class="progress-bar" style="background-color: rgb(207, 100, 154);" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
@@ -238,8 +239,8 @@
 
                     <div class="skill mb-4">
                         <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Git & Github</h6>
-                            <h6 class="font-weight-bold">70%</h6>
+                            <h6 class="font-weight-bold text-white">Git & Github</h6>
+                            <h6 class="font-weight-bold text-white">70%</h6>
                         </div>
                         <div class="progress">
                             <div class="progress-bar " style="background-color: rgb(232, 77, 49)" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
@@ -248,8 +249,8 @@
 
                     <div class="skill mb-4">
                         <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Tailwind Css</h6>
-                            <h6 class="font-weight-bold">50%</h6>
+                            <h6 class="font-weight-bold text-white">Tailwind Css</h6>
+                            <h6 class="font-weight-bold text-white">50%</h6>
                         </div>
                         <div class="progress">
                             <div class="progress-bar " style="background-color: rgb(49, 104, 232)" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
@@ -262,16 +263,16 @@
                     <div class="skill mb-4">
                         <div class="skill mb-4">
                             <div class="d-flex justify-content-between">
-                                <h6 class="font-weight-bold">Bootstrap</h6>
-                                <h6 class="font-weight-bold">65%</h6>
+                                <h6 class="font-weight-bold text-white">Bootstrap</h6>
+                                <h6 class="font-weight-bold text-white">65%</h6>
                             </div>
                             <div class="progress">
                                 <div class="progress-bar" style="background-color: rgb(121, 82, 179);" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Javascript</h6>
-                            <h6 class="font-weight-bold">90%</h6>
+                            <h6 class="font-weight-bold text-white">Javascript</h6>
+                            <h6 class="font-weight-bold text-white">90%</h6>
                         </div>
                         <div class="progress">
                             <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
@@ -279,8 +280,8 @@
                     </div>
                     <div class="skill mb-4">
                         <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">React JS</h6>
-                            <h6 class="font-weight-bold">95%</h6>
+                            <h6 class="font-weight-bold text-white">React JS</h6>
+                            <h6 class="font-weight-bold text-white">95%</h6>
                         </div>
                         <div class="progress">
                             <div class="progress-bar bg-info" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
@@ -288,8 +289,8 @@
                     </div>
                     <div class="skill mb-4">
                         <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Node Js</h6>
-                            <h6 class="font-weight-bold">40%</h6>
+                            <h6 class="font-weight-bold text-white">Node Js</h6>
+                            <h6 class="font-weight-bold text-white">40%</h6>
                         </div>
                         <div class="progress">
                             <div class="progress-bar" style="background-color: rgb(18, 88, 38);" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
@@ -297,8 +298,8 @@
                     </div>
                     <div class="skill mb-4">
                         <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">FireBase</h6>
-                            <h6 class="font-weight-bold">70%</h6>
+                            <h6 class="font-weight-bold text-white">FireBase</h6>
+                            <h6 class="font-weight-bold text-white">70%</h6>
                         </div>
                         <div class="progress">
                             <div class="progress-bar bg-warning"  role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
@@ -319,7 +320,7 @@
             </div>
             <div  style="display: flex; flex-wrap: wrap; justify-content: space-around;">
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <h5>Artpx</h5>
+                    <h5 class="text-white">InvoiceYou</h5>
                     <div class="position-relative overflow-hidden mb-2">
                         <img style=" height: 10rem; width: 25rem;" class="img-fluid rounded" src="img/InvoiceYou.png" alt="img">
                         
@@ -330,14 +331,14 @@
                         </div>
                     </div>
                     
-                    <a class="btn-web-a" target="_blank" href="https://clinquant-travesseiro-2ec97f.netlify.app/">Ir a InvoiceYou</a>  
+                    <a class="btn btn-outline-info" target="_blank" href="https://clinquant-travesseiro-2ec97f.netlify.app/">Ir a InvoiceYou</a>  
 
                 </div>
 
 
 
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <h5>Artpx</h5>
+                    <h5 class="text-white">Artpx</h5>
                     <div class="position-relative overflow-hidden mb-2">
                         <img style=" height: 10rem; width: 25rem;" class="img-fluid rounded" src="img/ArtPx.png" alt="img">
                         
@@ -348,23 +349,12 @@
                         </div>
                     </div>
                     
-                    <a class="btn-web-a" target="_blank" href="https://lovely-pastelito-3ba768.netlify.app/">Ir a Artpx</a>  
+                    <a class="btn btn-outline-info" target="_blank" href="https://lovely-pastelito-3ba768.netlify.app/">Ir a Artpx</a>  
 
                 </div>
 
-
-
-
-
-
-
-
-
-
-
-
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <h5>CoinTz</h5>
+                    <h5 class="text-white">CoinTz</h5>
                     <div class="position-relative overflow-hidden mb-2">
                         <img style=" height: 10rem; width: 25rem;" class="img-fluid rounded" src="img/CoinTz.png" alt="img">
                         <div class="portfolio-btn bg-info d-flex align-items-center justify-content-center">
@@ -374,12 +364,12 @@
                         </div>
                     </div>
 
-                    <a class="btn-web-a" target="_blank" href="https://resilient-fairy-8d17a5.netlify.app/">Ir a CoinTz</a>  
+                    <a class="btn btn-outline-info" target="_blank" href="https://resilient-fairy-8d17a5.netlify.app/">Ir a CoinTz</a>  
                 
                 </div>
 
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <h5>Ui-LinearGradients</h5>
+                    <h5 class="text-white">Ui-LinearGradients</h5>
                     <div class="position-relative overflow-hidden mb-2">
                         <img style=" height: 10rem; width: 25rem;" class="img-fluid rounded " src="img/Ui-LinearGradients.png" alt="img">
                         <div class="portfolio-btn bg-info d-flex align-items-center justify-content-center">
@@ -389,12 +379,12 @@
                         </div>
                     </div>
 
-                    <a class="btn-web-a" target="_blank" href="https://incomparable-biscuit-b6bd7d.netlify.app/">Ir a Ui-LinearGradients</a>  
+                    <a class="btn btn-outline-info" target="_blank" href="https://incomparable-biscuit-b6bd7d.netlify.app/">Ir a Ui-LinearGradients</a>  
                 
                 </div>
 
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <h5>CrudFirebase</h5>
+                    <h5 class="text-white">CrudFirebase</h5>
                     <div class="position-relative overflow-hidden mb-2">
                         <img style=" height: 10rem; width: 25rem;"  class="img-fluid rounded" src="img/CrudFirebase.png" alt="img">
                         <div class="portfolio-btn bg-info d-flex align-items-center justify-content-center">
@@ -404,11 +394,11 @@
                         </div>
                     </div>
 
-                    <a class="btn-web-a" target="_blank" href="https://clinquant-parfait-c0aaea.netlify.app/">Ir a CrudFirebase</a>  
+                    <a class="btn btn-outline-info" target="_blank" href="https://clinquant-parfait-c0aaea.netlify.app/">Ir a CrudFirebase</a>  
                 
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <h5>HypeEcommer</h5>
+                    <h5 class="text-white">HypeEcommer</h5>
                     <div class="position-relative overflow-hidden mb-2">
                         <img style=" height: 10rem; width: 25rem;" class="img-fluid rounded " src="img/HypeEcommer.png" alt="img">
                         <div class="portfolio-btn bg-info d-flex align-items-center justify-content-center">
@@ -418,7 +408,7 @@
                         </div>
                     </div>
 
-                    <a class="btn-web-a" target="_blank" href="https://genuine-sorbet-63b4a2.netlify.app/">Ir a HypeEcommer</a>  
+                    <a class="btn btn-outline-info" target="_blank" href="https://genuine-sorbet-63b4a2.netlify.app/">Ir a HypeEcommer</a>  
                 
                 </div>
                
